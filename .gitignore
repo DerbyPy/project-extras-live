@@ -1,0 +1,7 @@
+.tox/
+.ci/
+*.pyc
+htmlcov/
+.coverage
+coverage.xml
+.vscode/
