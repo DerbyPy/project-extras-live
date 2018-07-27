@@ -7,6 +7,7 @@ from app import app
 class TestViews:
     @classmethod
     def setup_class(cls):
+        app.testing = True
         cls.client = flask_webtest.TestApp(app)
 
     def test_default(self):
